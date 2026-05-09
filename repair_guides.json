@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "فحص وإصلاح الشبكة (Network Repair)",
+    "Children": [
+      {
+        "Name": "Xiaomi / Poco",
+        "Children": [
+          {
+            "Name": "Redmi Note 10 Pro",
+            "Description": "طريقة تفعيل الدياج: \n1. تأكد من تفعيل USB Debugging.\n2. اضغط على زر (Smart Diag Inject) في الواجهة الرئيسية.\n3. سيتم تثبيت ElsafeyDiagHelper.apk أوتوماتيكياً.\n4. من شاشة الهاتف اختر Enable Diag."
+          },
+          {
+            "Name": "Poco X3 Pro",
+            "Description": "طريقة تفعيل الدياج: \nاستخدم كود الاتصال *#*#717717#*#* أو قم بعمل Root واستخدم أمر (Setprop) من الواجهة."
+          }
+        ]
+      },
+      {
+        "Name": "Oppo / Realme",
+        "Children": [
+          {
+            "Name": "Reno 5 4G",
+            "Description": "طريقة تفعيل الدياج: \n1. افتح واجهة الاتصال واطلب *#8011#.\n2. اختر (Full Port Switch).\n3. إذا لم يستجب، ستحتاج لاستخدام فلاشة ENG ROM أو عمل Root."
+          }
+        ]
+      },
+      {
+        "Name": "Samsung",
+        "Children": [
+          {
+            "Name": "Qualcomm Models (A70, A71, etc.)",
+            "Description": "طريقة تفعيل الدياج: \n1. اكتب كود *#0808#.\n2. اختر خيار (DM + MODEM + ADB).\n3. انتظر ظهور بورت Samsung Serial في تعريفات الجهاز."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "إصلاح السيريال (IMEI Repair)",
+    "Children": [
+      {
+        "Name": "Generic Qualcomm",
+        "Description": "يجب توفر بورت Diag أولاً، ثم كتابة السيريال الجديد في خانة Repair IMEI والضغط على Write."
+      }
+    ]
+  }
+]
